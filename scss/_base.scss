@@ -1,0 +1,33 @@
+$color-dark: #262626;
+$color-black: #000;
+$color-primary: #d3ab55;
+$color-secondary : #bbb;
+$color-dark-gray:#848787;
+$font-dancingScript: "Dancing Script", cursive;
+$font-josefinSans: "Josefin Sans", sans-serif;
+$font-nunito: "Nunito", sans-serif;
+
+@mixin flexcenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    background-color: $color-dark;
+}
+::-webkit-scrollbar {
+    width: 1vw;
+}
+::-webkit-scrollbar-track{
+    background: $color-primary;
+    border-radius: 50px;
+}
+::-webkit-scrollbar-thumb{
+    background: $color-dark;
+    border-radius: 50px;
+}
