@@ -103,6 +103,7 @@ body {
   font-family: 'mono';
   background-color: transparent;
   border: 2px solid #d3ab55;
+  color: #d3ab55;
 }
 
 @media (min-width: 1300px) {
