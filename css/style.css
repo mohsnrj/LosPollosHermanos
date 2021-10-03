@@ -338,6 +338,7 @@ header .Brand {
 }
 
 .about-us {
+  margin-top: 5vw;
   display: flex;
   width: 100%;
   height: 70vh;
@@ -371,11 +372,13 @@ header .Brand {
 }
 
 .about-us-left p {
+  margin-top: 3vw;
   color: #000;
   font-family: 'mono';
 }
 
 .about-us-left button {
+  margin-top: 5vw;
   height: 4rem;
   color: #d3ab55;
   width: 13.5rem;
@@ -416,16 +419,29 @@ header .Brand {
     margin-left: 9%;
     border-radius: 50%;
   }
+  .about-us p {
+    width: 48vw;
+  }
 }
 
 @media screen and (max-width: 650px) {
   .about-us img {
-    width: 226%;
-    height: 34%;
-    margin-left: 7%;
-    border-radius: 50% 0 0 50%;
-    margin-top: 62%;
+    display: none;
   }
+  .about-us p {
+    width: 90vw;
+  }
+}
+
+.gallery .button-info {
+  margin-bottom: 5vh;
+  height: 9vh;
+  color: #d3ab55;
+  width: 25vw;
+  font-family: 'mono';
+  font-size: 1rem;
+  background-color: transparent;
+  border: 2px solid #d3ab55;
 }
 
 .gallery .cards-wrapper {
@@ -447,7 +463,7 @@ header .Brand {
 .navbar-navigation-left {
   width: 50vw;
   height: 100vh;
-  background-color: #262626;
+  background-color: rgba(132, 135, 135, 0.9);
   position: fixed;
   right: -150vw;
   transition: right 0.8s cubic-bezier(1, 0, 0, 1);
@@ -486,7 +502,7 @@ header .Brand {
   left: -150vw;
   width: 50vw;
   height: 100vh;
-  background-color: #000;
+  background-color: rgba(38, 38, 38, 0.9);
   transition: left 0.8s cubic-bezier(1, 0, 0, 1);
 }
 
@@ -528,6 +544,14 @@ header .Brand {
   }
   .navbar-navigation-left {
     display: none;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .gallery .button-info {
+    width: 60vw;
+    height: 6vh;
+    font-size: .8rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
